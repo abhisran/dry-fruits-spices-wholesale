@@ -60,7 +60,7 @@ async function initProducts() {
             <p class="price">${product.price}</p>
             <p class="description">${product.description}</p>
             <div class="actions" style="margin-top: 2rem;">
-              <a href="https://wa.me/918083324454?text=I'm interested in ${product.name}" class="btn btn-primary">Inquiry via WhatsApp</a>
+              <a href="https://wa.me/919876541064?text=I'm interested in ${product.name}" class="btn btn-primary">Inquiry via WhatsApp</a>
             </div>
           </div>
         </div>
