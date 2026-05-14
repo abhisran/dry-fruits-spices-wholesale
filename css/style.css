@@ -233,7 +233,7 @@ h1, h2, h3 {
 
 /* --- HERO SECTION --- */
 .hero {
-  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/hero-bg.jpg') center/cover;
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('../images/banners/hero-bg.jpg') center/cover;
   color: var(--white);
   padding: 8rem 0;
   text-align: center;
@@ -442,6 +442,9 @@ h1, h2, h3 {
   color: var(--white);
   padding: 4rem 0 2rem;
   margin-top: 4rem;
+  background-image: linear-gradient(rgba(38, 24, 21, 0.9), rgba(38, 24, 21, 0.9)), url('../images/banners/footer.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 .footer-main-grid {

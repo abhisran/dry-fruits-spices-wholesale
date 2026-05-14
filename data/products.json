@@ -7,21 +7,9 @@
       "products": [
         {
           "id": "1",
-          "name": "Premium Almonds",
-          "description": "Large, crunchy California almonds perfect for snacking or processing.",
-          "image": "images/products/almonds.jpg",
-          "featured": true,
-          "specs": {
-            "Origin": "California, USA",
-            "Grade": "Premium / Non-Pareil",
-            "Packaging": "10kg / 25kg Bulk Cartons"
-          }
-        },
-        {
-          "id": "2",
-          "name": "Whole Cashews",
-          "description": "W240 Grade whole cashew nuts, creamy and delicious.",
-          "image": "images/products/cashews.jpg",
+          "name": "Premium Cashews",
+          "description": "Large, creamy W240 grade cashew nuts, perfect for snacks and luxury gifting.",
+          "image": "images/products/cashew.jpeg",
           "featured": true,
           "specs": {
             "Origin": "Ivory Coast / Vietnam",
@@ -30,15 +18,27 @@
           }
         },
         {
+          "id": "2",
+          "name": "Select Raisins",
+          "description": "Sweet and juicy sun-dried raisins, naturally processed for maximum flavor.",
+          "image": "images/products/raisins.webp",
+          "featured": true,
+          "specs": {
+            "Origin": "India",
+            "Grade": "A-Grade / Green",
+            "Packaging": "10kg Bulk Boxes"
+          }
+        },
+        {
           "id": "3",
-          "name": "Green Pistachios",
-          "description": "Bright green, shelled pistachios for confectionery and snacks.",
-          "image": "images/products/pistachios.jpg",
+          "name": "Premium Makhana",
+          "description": "High-quality Fox Nuts (Makhana), protein-rich and perfect for roasting.",
+          "image": "images/products/makhana.webp",
           "featured": false,
           "specs": {
-            "Origin": "Iran",
-            "Grade": "Super Green Kernel",
-            "Packaging": "12.5kg Cartons"
+            "Origin": "Bihar, India",
+            "Grade": "6-Plus Quality",
+            "Packaging": "10kg Poly Bags"
           }
         }
       ]
@@ -63,8 +63,8 @@
         {
           "id": "5",
           "name": "Whole Black Pepper",
-          "description": "Tellicherry Garbled Extra Bold (TGEB) black pepper seeds.",
-          "image": "images/products/pepper.jpg",
+          "description": "Tellicherry Garbled Extra Bold (TGEB) black pepper seeds with intense heat.",
+          "image": "images/products/Black-Pepper.jpeg",
           "featured": true,
           "specs": {
             "Density": "550 G/L",
@@ -74,14 +74,57 @@
         },
         {
           "id": "6",
-          "name": "Green Cardamom",
-          "description": "7mm+ bold green cardamom pods with intense aroma.",
-          "image": "images/products/cardamom.jpg",
+          "name": "Cinnamon Sticks",
+          "description": "Fragrant and sweet whole cinnamon sticks, essential for gourmet cooking.",
+          "image": "images/products/cinamon-stick.jpg",
           "featured": false,
           "specs": {
-            "Size": "7mm - 8mm",
-            "Origin": "Idukki, India",
-            "Packaging": "5kg / 10kg Master Cartons"
+            "Origin": "Vietnam / Indonesia",
+            "Type": "Cassia / Ceylon",
+            "Packaging": "10kg Master Cartons"
+          }
+        },
+        {
+          "id": "7",
+          "name": "Red Chilli",
+          "description": "Premium dried whole red chillies with natural color and pungent heat.",
+          "image": "images/products/red-chilli.jpg",
+          "featured": false,
+          "specs": {
+            "Type": "S17 Teja / Byadgi",
+            "Origin": "Guntur, India",
+            "Packaging": "10kg - 25kg Gunny Bags"
+          }
+        }
+      ]
+    },
+    {
+      "id": "grains",
+      "name": "Rice & Grains",
+      "description": "Export-grade Basmati and non-Basmati rice varieties.",
+      "products": [
+        {
+          "id": "8",
+          "name": "1121 Basmati Rice",
+          "description": "Extra-long grain Basmati rice with world-renowned aroma and non-sticky texture.",
+          "image": "images/products/basmati-rice.jpg",
+          "featured": true,
+          "specs": {
+            "Grain Length": "8.35mm+",
+            "Origin": "Haryana, India",
+            "Packaging": "5kg - 50kg BOPP Bags"
+          }
+        },
+        {
+          "id": "9",
+          "name": "Non-Basmati Rice",
+          "description": "High-quality long-grain white rice for daily consumption and bulk exports.",
+          "image": "images/products/Non-basmati-Rice-pic.webp",
+          "featured": false,
+          "specs": {
+            "Type": "IR-64 / PR-11",
+            "Origin": "India",
+            "Packaging": "25kg / 50kg PP Bags"
           }
         }
       ]
