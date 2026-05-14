@@ -1,56 +1,90 @@
-[
-  {
-    "id": 1,
-    "name": "Premium Almonds",
-    "category": "dry-fruits",
-    "description": "High-quality, crunchy almonds sourced from California. Rich in nutrients and perfect for wholesale buyers.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.pexels.com/photos/13002250/pexels-photo-13002250.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "featured": true
-  },
-  {
-    "id": 2,
-    "name": "Organic Cashew Nuts",
-    "category": "dry-fruits",
-    "description": "Whole, creamy cashews perfect for snacking and culinary use. Grade A quality available in bulk.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.pexels.com/photos/36631827/pexels-photo-36631827.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "featured": true
-  },
-  {
-    "id": 3,
-    "name": "Cardamom Pods",
-    "category": "spices",
-    "description": "Fragrant green cardamom pods. Sourced directly from farms to ensure maximum freshness and aroma.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.pexels.com/photos/9142634/pexels-photo-9142634.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "featured": true
-  },
-  {
-    "id": 4,
-    "name": "Saffron (Grade A)",
-    "category": "spices",
-    "description": "Pure, premium quality saffron threads. Known for its rich color and intense flavor profile.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.unsplash.com/photo-1643471672168-f4a4b6cfa440?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-    "featured": true
-  },
-  {
-    "id": 5,
-    "name": "Walnuts (Kashmiri)",
-    "category": "dry-fruits",
-    "description": "Shell-less walnut halves. High omega-3 content and premium taste from the valleys of Kashmir.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.pexels.com/photos/35752307/pexels-photo-35752307.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "featured": false
-  },
-  {
-    "id": 6,
-    "name": "Black Pepper",
-    "category": "spices",
-    "description": "Bold and pungent black peppercorns. Essential spice for all cuisines, available in various grades.",
-    "price": "Contact for Wholesale Price",
-    "image": "https://images.pexels.com/photos/10487732/pexels-photo-10487732.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "featured": false
-  }
-]
+{
+  "categories": [
+    {
+      "id": "dry-fruits",
+      "name": "Premium Dry Fruits",
+      "description": "High-quality wholesale dry fruits sourced from the best orchards.",
+      "products": [
+        {
+          "id": "1",
+          "name": "Premium Almonds",
+          "description": "Large, crunchy California almonds perfect for snacking or processing.",
+          "image": "images/products/almonds.jpg",
+          "featured": true,
+          "specs": {
+            "Origin": "California, USA",
+            "Grade": "Premium / Non-Pareil",
+            "Packaging": "10kg / 25kg Bulk Cartons"
+          }
+        },
+        {
+          "id": "2",
+          "name": "Whole Cashews",
+          "description": "W240 Grade whole cashew nuts, creamy and delicious.",
+          "image": "images/products/cashews.jpg",
+          "featured": true,
+          "specs": {
+            "Origin": "Ivory Coast / Vietnam",
+            "Grade": "W240",
+            "Packaging": "10kg Vacuum Packs"
+          }
+        },
+        {
+          "id": "3",
+          "name": "Green Pistachios",
+          "description": "Bright green, shelled pistachios for confectionery and snacks.",
+          "image": "images/products/pistachios.jpg",
+          "featured": false,
+          "specs": {
+            "Origin": "Iran",
+            "Grade": "Super Green Kernel",
+            "Packaging": "12.5kg Cartons"
+          }
+        }
+      ]
+    },
+    {
+      "id": "spices",
+      "name": "Authentic Indian Spices",
+      "description": "Pure and aromatic spices directly from the farmers.",
+      "products": [
+        {
+          "id": "4",
+          "name": "Organic Turmeric Powder",
+          "description": "High curcumin content turmeric powder, processed under hygienic conditions.",
+          "image": "images/products/turmeric.jpg",
+          "featured": true,
+          "specs": {
+            "Curcumin": "3.5% - 5%",
+            "Origin": "Salem, India",
+            "Packaging": "25kg / 50kg PP Bags"
+          }
+        },
+        {
+          "id": "5",
+          "name": "Whole Black Pepper",
+          "description": "Tellicherry Garbled Extra Bold (TGEB) black pepper seeds.",
+          "image": "images/products/pepper.jpg",
+          "featured": true,
+          "specs": {
+            "Density": "550 G/L",
+            "Origin": "Malabar, India",
+            "Packaging": "25kg Jute Bags"
+          }
+        },
+        {
+          "id": "6",
+          "name": "Green Cardamom",
+          "description": "7mm+ bold green cardamom pods with intense aroma.",
+          "image": "images/products/cardamom.jpg",
+          "featured": false,
+          "specs": {
+            "Size": "7mm - 8mm",
+            "Origin": "Idukki, India",
+            "Packaging": "5kg / 10kg Master Cartons"
+          }
+        }
+      ]
+    }
+  ]
+}
